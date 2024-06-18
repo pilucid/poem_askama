@@ -1,0 +1,14 @@
+[package]
+name = "poem_askama"
+
+edition = "2021"
+version = "0.1.0"
+
+[dependencies]
+serde              = { version = "1.0.203", features = ["derive"] }
+tokio              = { version = "1.38.0", features = ["full"] }
+tracing-subscriber = { version = "0.3.18", features = ["parking_lot"] }
+
+askama = "0.12.1"
+poem   = "3.0.1"
+tracing = "0.1.40"

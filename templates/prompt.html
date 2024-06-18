@@ -1,0 +1,10 @@
+{% extends "index.html" %}
+
+{% block main %}
+<form action="/greet" method="POST">
+  <label for="name">Enter your name: </label>
+  <input type="text" id="name" name="name" />
+
+  <input type="submit" value="Submit" />
+</form>
+{% endblock %}
